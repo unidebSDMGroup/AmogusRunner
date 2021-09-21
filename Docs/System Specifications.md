@@ -1,7 +1,7 @@
 # Functional Requirements:
-## Game Mechincs:
+## Game Mechanics:
  - Unity is the leading video game engine it provides certain tools and functionalities that allow the game to be rapidly developed.
- -  The players has to use the on-screen buttons to start the game and access the options. 
+ - The players has to use the on-screen buttons to start the game and access the options. 
  - As soon as you start the game, your charater will strat moving forward and will be followed by an AI character/buddy. 
  - The AI character/buddy which chases you, prefectly dodges all obstacles but cannot catch you
  - To achieve high score, the player has to use the jump button to dodge the obstructions. 
