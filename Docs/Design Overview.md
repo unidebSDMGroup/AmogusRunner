@@ -50,3 +50,10 @@ Game mechanics will be based on this basic template (template specific mechanics
 ### Music
 
 - Specifications to be decided further ahead during development.
+
+## 5.Deployment requirements
+
+- Game is expected to be deployed on a Windows PC.
+- Very basic and only requires basic hardware to run.
+- Game can be ported to mobile(Android) with already existing features that facilitate this in Unity.
+- iOS portability to be decided based on feasibility.
