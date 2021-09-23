@@ -1,9 +1,12 @@
-# Functional Requirements:
-## Game Mechanics:
- - Unity is the leading video game engine it provides certain tools and functionalities that allow the game to be rapidly developed.
- - The players has to use the on-screen buttons to start the game and access the options. 
- - As soon as you start the game, your charater will strat moving forward and will be followed by an AI character/buddy. 
- - The AI character/buddy which chases you, prefectly dodges all obstacles but cannot catch you
- - To achieve high score, the player has to use the jump button to dodge the obstructions. 
- - If the player fails to dodge any obstructions at any point, the game will end, the final score will be shared and progress will be reset.
- - The in-game interface shows endless terrain generation with randomized obstacles and as you move forward the game gets more intense along with the terrain.
+# Game Mechanics:
+## Player Character:
+ - The player character will move up on the y-axis after pressing the spacebar using the transform function in unity.
+ - If the user presses space bar and is in the air they cannot jump again.
+ - The longer the user presses the spacebar the higher they jump.
+ - To simulate smooth movement of a jump in the frame update function add the move towards method, using a specific speed multiplying with Time.deltaTime to keep smooth           transitions between multiple computers/devices.
+ - The player character has a boxcollider attached to the sprite allowing for collision detection with other colliders.
+ - If the player character boxcollider collides with an obstacle box collider we will reduce the player health to 0 triggering a scene transition to the game over/restart         screen.
+
+## Obstacle:
+ - Obstacles will be spawned randomly using a spawner, using the instantiate function and a random number generator.
+ - Obstacles will have a box collider aswell, if the player box collider enters the obstacle box collider call the OnTrigger function within which we will remove 1 health         from the player character and destroy the obstacle.
