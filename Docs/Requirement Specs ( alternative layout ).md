@@ -86,6 +86,7 @@ Game mechanics will be based on this basic template (template specific mechanics
  The background was designed to be static and it includes faraway rocks and mounds
  as seen in the original among us map " Polus".
  The faraway standing figures are part of an online joke and their presence is purely comical.
+
  ![back](/resources/screenplans/amog.png)   
 
 
@@ -105,11 +106,13 @@ Game mechanics will be based on this basic template (template specific mechanics
  The platform needed to be completely flat, yet the blocks themselves will contain minor transparent parts near the surface which shouldn't affect the running mechanics.
   this choice was purely aesthetic and non-technical.
  The Polus map included a lava pool therefore some blocks have a pool of lava below.
+ 
  ![animation](/resources/screenplans/blocks.png)
 
 
  With everything above put together, the screenplan is as follows.
  It Background color was intentionally darker to separate it from the foreground and a gradient was used to color the sky.
+
  ![plan](/resources/screenplans/screenplans.png)
 
 # 6. Requirement list:
