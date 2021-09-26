@@ -13,13 +13,13 @@
  - Obstacles will be spawned randomly using a spawner, using the instantiate function and a random number generator.
  - Obstacles will have a box collider aswell, if the player box collider enters the obstacle box collider call the OnTrigger function within which we will remove 1 health         from the player character and destroy the obstacle.
 
-##AI
+## AI
 - The AI is meant to run away from the player automatically detecting objstacles and jumping over them.
 - This would work with collision detection in Unity.
 - The obstacle will have two colliders one for the AI to detect the proximity and the other for physics(which will be used for the player).
 - The jump mechanic for the AI would use the same rigidbody physics to add velocity in the upwards direction.
 - Depending on the obstacle size the AIs jump height is adjusted.
 
-##Platform generation
+## Platform generation
 - Platforms and obstacles are generated randomly from variatons of assets provided.
 - The instantiation/random generation happens during runtime.
