@@ -15,10 +15,11 @@ public class PlayerController : MonoBehaviour
     public float jumpTime;
     private bool isJumping;
     public int health = 1;
-
+    private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -36,6 +37,15 @@ public class PlayerController : MonoBehaviour
             isJumping = true;
             jumpTimeCounter = jumpTime;
             rb.velocity = Vector2.up * jumpForce;
+        }
+
+        if(isGrounded == true)
+        {
+            anim.SetBool("isJumping", false);
+        }
+        else
+        {
+            anim.SetBool("isJumping",true);
         }
 
         if (Input.GetKey(KeyCode.Space) && isJumping == true)
