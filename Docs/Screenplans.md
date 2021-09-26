@@ -15,6 +15,7 @@ The faraway standing figures are part of an online joke and their presence is pu
 
 The animation was planned to be simple considering the scope and simplicity of the Game.
 Two of the planned major keyframes are shown below. Other keyframes will be created to smooth the animation.
+
 ![animation](/resources/screenplans/anim.png)
 
 Below is a reference of the two Main characters. They have very similar design with different colors.
