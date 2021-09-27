@@ -10,7 +10,8 @@ public class platformScript : MonoBehaviour
     public GameObject lobstaclePrefab;
     GameObject[] platformCell = new GameObject[10];
     GameObject[] obstacleCell = new GameObject[3];
-    public GameObject[] platformPrefabVar = new GameObject[4];    
+    public GameObject[] platformPrefabVar = new GameObject[4];
+    //int spawnedObstacle=0;
 
 
     void Start()
@@ -37,9 +38,9 @@ public class platformScript : MonoBehaviour
             //Debug.Log(objectSize);
         }
 
-        obstacleCell[0] = Instantiate(sobstaclePrefab, new Vector3(Random.Range(0, 10.0f), 1.5f, 0), Quaternion.identity) as GameObject;
-        obstacleCell[1] = Instantiate(mobstaclePrefab, new Vector3(Random.Range(0, 10.0f), 1.5f, 0), Quaternion.identity) as GameObject;
-        obstacleCell[2] = Instantiate(lobstaclePrefab, new Vector3(Random.Range(0, 10.0f), 1.5f, 0), Quaternion.identity) as GameObject;
+        obstacleCell[0] = Instantiate(mobstaclePrefab, new Vector3(Random.Range(10, 12.0f), 1.5f, 0), Quaternion.identity) as GameObject; //edit 1.5f values for the y height for obstacles
+        obstacleCell[1] = Instantiate(sobstaclePrefab, new Vector3(obstacleCell[0].transform.position.x + Random.Range(5.0f, 7.0f), 1.5f, 0), Quaternion.identity) as GameObject;//edit 1.5f values for the y height for obstacles
+        obstacleCell[2] = Instantiate(lobstaclePrefab, new Vector3(obstacleCell[1].transform.position.x + Random.Range(5.0f, 7.0f), 1.5f, 0), Quaternion.identity) as GameObject;//edit 1.5f values for the y height for obstacles
         //k = k + 2f;
 
     }
@@ -74,6 +75,25 @@ public class platformScript : MonoBehaviour
         obstacleCell[0].transform.Translate(5 * Vector3.left * Time.deltaTime);
         obstacleCell[1].transform.Translate(5 * Vector3.left * Time.deltaTime);
         obstacleCell[2].transform.Translate(5 * Vector3.left * Time.deltaTime);
+
+        for (int i = 0; i < 3; i++)
+        {
+            if (obstacleCell[i].transform.position.x < -12f)
+            {
+                Vector3 temp = new Vector3(24f, 0, 0);
+                obstacleCell[i].transform.position += temp;
+                //Destroy(platformCell[i].gameObject);//resetposition instead of destroy??
+                //platformCell[i] = Instantiate(platformPrefabVar[Random.Range(0, 3)], temp, Quaternion.identity) as GameObject;
+                /*count++;
+                Debug.Log(count);
+                while (count == 1)
+                {
+                    platformCell[i] = Instantiate(platformPrefabVar[Random.Range(0, 4)], temp, Quaternion.identity) as GameObject;
+                    count--;
+                }*/
+
+            }
+        }
 
     }
 }
