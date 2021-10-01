@@ -14,6 +14,51 @@ In most of the endless games like Temple Run, Subway Surfers and Super Mario; ma
 
 ## IV. Required Processes
 
+### Software requirements for development
+
+Since the game is a 2d endless runner the software requirements are simply going to be a game engine and a 2d image manipulation software.
+
+- Unity
+- Photoshop/GIMP
+
+Further requirements for a finished polished game.
+Music creation application to be decided.
+
+### System features/game mechanics
+
+Base game: Endless runner
+
+Game mechanics will be based on this basic template (template specific mechanics).
+
+- Player movement(simulated by moving the world instead of the player).
+- Jump mechanic to clear obstacles.
+- Score system.
+- Local score logging system
+
+#### Game specific mechanics
+
+- Player chasing AI.
+- Hit detection between player, obstacles and the AI (player should not be able to catch up to the AI).
+
+#### Player
+
+- Player sprites
+- Player static animation(not essential)
+- Player movement animation
+
+#### AI
+
+- AI sprite
+- AI likeness exactly similar to player except for colors so animations will be ported over.
+
+#### World
+
+- Background, foreground and middlground world sprites(number of variances for each to be decided).
+
+#### Music
+
+- Specifications to be decided further ahead during development.
+
 ## V. Rules
 
 ## VI. Requirement List
