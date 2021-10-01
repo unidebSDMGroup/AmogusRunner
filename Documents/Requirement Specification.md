@@ -8,6 +8,8 @@ Our main development goal is to create a satirical amongus themed runner that ke
 
 # Current Processes
 
+In most of the endless games like Temple Run, Subway Surfers and Super Mario; main goal is to achieve the highest score possible. In order to achieve that players must overcome obstacles by jumping and they must do this in haste as the game goes faster the longer it goes, if the player is unable to overcome these challenges game will prompt the player with a game over screen.
+
 # Required Processes
 
 # Rules
