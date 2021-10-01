@@ -2,6 +2,18 @@
 
 ## I . Purpose of the Product
 
+- The purpose of this system is to enable gamers to have an experience in playing a game which is a synthesis of the endless game and one of today's popular themes "among us". 
+
+- It aims to have gamers a fun time while overcoming through obstacles and chasing AI.
+
+- This game is designed for Windows PC and can be ported to mobile.
+
+- For the sake of gamers,the color for background was chosen darker than the foreground's color to make the game more understandable.  
+
+- To jump to stay away from the obstacles space bar should be pressed, the longer it is pressed the higher they jump.
+
+- If the player cant get pass the obstacles, the game over/restart screen will showed. 
+
 ## II . Project Plan
 // our plan for pre-study, design and implementation
 
