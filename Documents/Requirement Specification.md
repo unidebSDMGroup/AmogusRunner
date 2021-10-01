@@ -61,7 +61,7 @@ Game mechanics will be based on this basic template (template specific mechanics
 
 ## V. Rules
 
-### Player Character
+### Player character
 
 - The player character will be affected by gravity using the rigidbody component in unity.
 - If the user presses space bar while the player is on the ground it will allow the player to jump using the vector2.up function.
@@ -78,4 +78,38 @@ Game mechanics will be based on this basic template (template specific mechanics
 
 ## VI. Requirement List
 
+### Deployment requirements
+
+- Game is expected to be deployed on a Windows PC.
+- Very basic and only requires basic hardware to run.
+- Game can be ported to mobile(Android) with already existing features that facilitate this in Unity.
+- iOS portability to be decided based on feasibility.
+
+### Functional requirements
+
+#### Player
+
+Must be controllable with minimal delay ( regarding the jumping mechanic ).
+
+#### AI
+
+Responsive to the obstacles with acceptable accuracy. Ensure The AI cannot lose the game or clip in an obstacle.
+
+#### UI
+
+Accessible and minimal with clear visual cues for starting the game, exiting or changing settings.
+
+#### Game flow
+
+Must have one or more ways to fail the game and restart it. Example : losing health will switch to a " Game over Screen" and prompt the player to restart the level. A key could be assigned to pause and exist the game.
+
+#### Assets
+
+Must be visually coherent. should not contain any gaps or misplaces elements.
+
+#### Audio
+
+A simple repeating melody or song. A simple sound indicating jumping and missing obstacles.
+
 ## VII. Dictionary
+
