@@ -1,5 +1,7 @@
 # Current Situation
 
+Endless games are one of the most popular video games where people try to do their best and get the highest score. That's why we aim to develop an among us themed endless runner game since this theme is still popular among people, but unlike its original version in our game, there are two characters where one of them is chasing the other that adds extra excitement to the game.
+
 # Dream System
 
 # Current Processes
