@@ -89,46 +89,46 @@ Game mechanics will be based on this basic template (template specific mechanics
 
 #### Player
 
-Must be controllable with minimal delay ( regarding the jumping mechanic ).
+- Must be controllable with minimal delay ( regarding the jumping mechanic ).
 
 #### AI
 
-Responsive to the obstacles with acceptable accuracy. Ensure The AI cannot lose the game or clip in an obstacle.
+- Responsive to the obstacles with acceptable accuracy. Ensure The AI cannot lose the game or clip in an obstacle.
 
 #### UI
 
-Accessible and minimal with clear visual cues for starting the game, exiting or changing settings.
+- Accessible and minimal with clear visual cues for starting the game, exiting or changing settings.
 
 #### Game flow
 
-Must have one or more ways to fail the game and restart it. Example : losing health will switch to a " Game over Screen" and prompt the player to restart the level. A key could be assigned to pause and exist the game.
+- Must have one or more ways to fail the game and restart it. Example : losing health will switch to a " Game over Screen" and prompt the player to restart the level. A key could be assigned to pause and exist the game.
 
 #### Assets
 
-Must be visually coherent. should not contain any gaps or misplaces elements.
+- Must be visually coherent. should not contain any gaps or misplaces elements.
 
 #### Audio
 
-A simple repeating melody or song. A simple sound indicating jumping and missing obstacles.
+- A simple repeating melody or song. A simple sound indicating jumping and missing obstacles.
 
 ## VII. Dictionary
 
 ### Visuals
 
-#### UI
+#### UI:
 
-User interface; components used to directly interact with the user. could be used to display useful information or navigate though the game menus.
+- User interface; components used to directly interact with the user. could be used to display useful information or navigate though the game menus.
 
-#### Layer
+#### Layer:
 
-A collection of assets situated on the same prespective line from the camera's point of view. addition of different layers with different transition speed creates the illusion of prespective.
+- A collection of assets situated on the same prespective line from the camera's point of view. addition of different layers with different transition speed creates the illusion of prespective.
 
-#### Sprite
+#### Sprite:
 
-A 2D texture wrapper containing visual information to be directly used as part of the game's visuals.
+- A 2D texture wrapper containing visual information to be directly used as part of the game's visuals.
 
 ### System & Mechanics
 
-#### Jump Impulse
+#### Jump Impulse:
 
-Describes the way the player is able to move. An impulse in this case describes the suddent positive change in the player's position on the Y-axis.
+- Describes the way the player is able to move. An impulse in this case describes the suddent positive change in the player's position on the Y-axis.
