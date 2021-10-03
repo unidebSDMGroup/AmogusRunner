@@ -46,11 +46,15 @@ you're trying to achieve with them
 
 ### 4 - Functional Requirements
 
+![back](/Documents/diagrams/ClassDiagram.png)
+![back](/Documents/diagrams/AmogusERD.png)
 ## V . Functional Design
 
 ## VI . Game-Flow
+![back](/Documents/diagrams/GameFlowDiagram.png)
+
 ## VII . Use Case
-//diagram
+![back](/Documents/diagrams/UIUseCaseDiagram.jpg)
 
 ## VIII . Implementation Plan
 //deadlines and goals table
