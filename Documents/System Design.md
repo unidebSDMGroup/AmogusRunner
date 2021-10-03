@@ -46,7 +46,12 @@ you're trying to achieve with them
 
 ### 4 - Functional Requirements
 
+- class diagram
+
 ![back](/Documents/diagrams/ClassDiagram.png)
+
+- ERD diagrams
+
 ![back](/Documents/diagrams/AmogusERD.png)
 ## V . Functional Design
 
@@ -56,13 +61,23 @@ you're trying to achieve with them
 ## VII . Use Case
 ![back](/Documents/diagrams/UIUseCaseDiagram.jpg)
 
-## VIII . Implementation Plan
-//deadlines and goals table
+## VIII . plan schedule
+| MILESTONE     | DEADLINE |
+| ----------- | ----------- |
+| pre-study      | 13st sep 2021 |
+| design   | 26st sep 2021 |
+| implementation | 3rd oct 2021 |
+
 ## IX . Testing Plan
-//include only the things to be tested, actual testing will be in a different file
+- blocks generating randomly
+- obstacles generating randomly
+- player able to jump over Obstacles
+- UI navigation
+
 
 ## X . Deployment Plan
 // unity -> export launcher
 
 ## XI . Maintenance Plan
-// future plans for the project
+This game will be finilized with a clear end-goal in mind. this means that it will most likely not be developed further, this includes adding more features.
+small quality of life additions and bugfixes however will be added in the upcoming versions.
