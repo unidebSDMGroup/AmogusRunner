@@ -30,7 +30,10 @@ This Project will use Business-to-business model. The finished product will be p
 ## IV . Requirement List
 
 ### 1 - General System Requirements
-//explanation of the system compatibility and environment
+- A Windows pc with Unity installed to allow for fast paced developement of the game.
+- Visual Studios: for scripting in c# as well as its integration with Unity.
+- Adobe Photoshop: for the creation of assets for example sprites and background images that are to be implemented in the game.
+- Garageband: for the creation of music and sound effects to be implemented in the game.
 
 ### 2 - Visuals and UI Requirements
 - The Block Assets must be coherent. This means that when placing any of the blocks next to another or an obstacle, both of the blocks seem as if they're connected. This could be done by leaving
@@ -41,8 +44,7 @@ This animation is playing by default.
 - A static background could act as a layer-0. Having the main platform move and the background static creates a tiny pararlellex effect.
 
 ### 3 - Audio Requirements
-//describe somewhat technically the variety of audio tracks/sound effects and what
-you're trying to achieve with them
+Two audio tracks must be created for the main menu screen and ingame screen but should follow the same sort of theme. The audio tracks must be of a high bit rate and not have and looping since that will be handled by the unity engine. The sound effects should be short clips without looping as to not cause issues while implementing them in game. The music should give the player a feeling of a chase but it must be fun to keep the player entertained and to keep the game light hearted as it is satirical.
 
 ### 4 - Functional Requirements
 
@@ -76,7 +78,7 @@ you're trying to achieve with them
 
 
 ## X . Deployment Plan
-// unity -> export launcher
+This game will be deployed using unity's built in feature of creating builds for any device necessary.
 
 ## XI . Maintenance Plan
 This game will be finilized with a clear end-goal in mind. this means that it will most likely not be developed further, this includes adding more features.
