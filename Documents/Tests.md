@@ -8,3 +8,5 @@
 | Khizr      | obstacle collision detection| 0.2 |  3rd oct 2021 | pass | issue has been corrected  |
 | Khizr      | pause button | 0.2 |  3rd oct 2021 | fail | can pause whenever the player wants, music continues playing during pause screen |
 | Khizr      | pause button | 1.0 |  3rd oct 2021 | pass | pause button fixed  |
+| Khizr      | Main menu buttons | 1.0 |  3rd oct 2021 | pass | |
+| Khizr      | Game Over buttons | 1.0 |  3rd oct 2021 | pass | |
