@@ -23,12 +23,13 @@ Game mechanics will be based on this basic template (template specific mechanics
 - Player movement(simulated by moving the world instead of the player).
 - Jump mechanic to clear obstacles.
 - Score system.
+- Coin Collection system.
 - Local score logging system.
 
 ### Game specific mechanics
 
 - Player chasing AI.
-- Hit detection between player, obstacles and the AI (player should not be able to catch up to the AI).
+- Hit detection between player, obstacles, coins and the AI (player should not be able to catch up to the AI).
 
 ## 4.Asset requirements
 
