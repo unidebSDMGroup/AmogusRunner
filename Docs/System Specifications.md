@@ -13,6 +13,10 @@
  - Obstacles will be spawned randomly using a spawner, using the instantiate function and a random number generator.
  - Obstacles will have a box collider aswell, if the player box collider enters the obstacle box collider call the OnTrigger function within which we will remove 1 health         from the player character and destroy the obstacle.
 
+ ## Coins:
+ - Coins will be spawned randomly using a spawner, using the instatiate function and a random number generator.
+ - Coins will have a circle collider, if the character box collider collides with a coin box collider, we will increase the coin counter by 1.
+
 ## AI
 - The AI is meant to run away from the player automatically detecting objstacles and jumping over them.
 - This would work with collision detection in Unity.
@@ -21,5 +25,5 @@
 - Depending on the obstacle size the AIs jump height is adjusted.
 
 ## Platform generation
-- Platforms and obstacles are generated randomly from variatons of assets provided.
+- Platforms, obstacles and coins are generated randomly from variatons of assets provided.
 - The instantiation/random generation happens during runtime.
